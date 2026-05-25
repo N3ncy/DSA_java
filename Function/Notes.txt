@@ -1,0 +1,21 @@
+What is Function?
+Why function?
+Commponents of function
+Sequential flow of function
+Context of function: this keyword, Scope(global, lexical, functional & local) 
+Stack memory  & heap memory: LVT, how objects are stored, what is stacck frame, persistance storage of memory
+
+Call by value & call by reference
+
+Types of function: Parameterised and non Parameterised, recursive function'
+
+difference between arguments and parameters
+
+Function overloading?
+-> same name and change parameter or return type
+
+Function overriding?
+-> We cannot overrides static functions and final methods
+
+recursive function
+-> A function called itself within its own body.
