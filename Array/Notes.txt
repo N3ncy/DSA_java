@@ -1,0 +1,20 @@
+Array is linear data structure which stores simailar type of data. 
+
+Why we need Array?
+->Easy traversal, for management.
+
+Declaration of array: int[] arr; (integer type) happens during compile time
+Inizialization of array: int[] arr = {1, 2, 3, 4}; during runtime
+        ||             : int[] arr = new int[3];
+
+arr.length; no paranthesis because it is not method it is property of array or we can say attribute.
+> It returns the size of array.
+
+If we inzialize array name Student[] S5 = [S1, S2, S3] it will first make stack call name student it will point to array object in heap memory starts from base it will stores address and that address points to s1, s2 and s3. we cannot directly change it.
+
+Why we cannot start indexing from 1?
+->
+
+array has contiguous memory allocation it will make accessibility fasst and easy.
+
+Traversal of array

@@ -1,21 +1,46 @@
 What is Function?
+-> It is block of resuable code which performs specific task.
+
 Why function?
-Commponents of function
-Sequential flow of function
-Context of function: this keyword, Scope(global, lexical, functional & local) 
-Stack memory  & heap memory: LVT, how objects are stored, what is stacck frame, persistance storage of memory
+-> for code resuability, clean code, modularity, eacy to test and debug.
 
-Call by value & call by reference
+Commponents of function -> access modifiers, function name, return type, parameters, arguments, function body etc..
 
-Types of function: Parameterised and non Parameterised, recursive function'
+Sequential flow of function ->first it will enter the function with main method, function call, function body execution, return statement.
+
+Context of function: this keyword, Scope(global, lexical, functional & local)
+This keyword is used for shadowing in a function.
+global scope: accessible throughout the program
+lexical scope: access variable from where it is defined
+functinal scople: accessible in that specific function.
+local scope: can be used inside the block only
+
+Stack memory  & heap memory: LVT(Local Variable table), how objects are stored, what is stacck frame, persistance storage of memory
+
+Stack memory: used for function execution, follows LIFO, fast access
+Heap memory: stores objects and dynamic data, slower access, java garbage collector
+LVT: stores local variables
+stack frame: block of stack memory created for each method caall
+persistance storage: it keeps data even sfter program closes.
+
+Call by value: changes inside the function will not affect the actual parameters.
+Call by reference: changes inside the function will affect the actual parameters.
+
+
+Types of function: Parameterised and non Parameterised
+Parameterised: with parameters.
+non Parameterised: no parameters.
 
 difference between arguments and parameters
+->parameters are written in function definition
+-> arguments are actual value passed during function call
 
 Function overloading?
 -> same name and change parameter or return type
 
 Function overriding?
--> We cannot overrides static functions and final methods
+-> We cannot overrides static functions and final methods. child class provide new parent class
+-> same name,same parameter
 
 recursive function
 -> A function called itself within its own body.
