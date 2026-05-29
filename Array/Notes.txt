@@ -13,8 +13,8 @@ arr.length; no paranthesis because it is not method it is property of array or w
 If we inzialize array name Student[] S5 = [S1, S2, S3] it will first make stack call name student it will point to array object in heap memory starts from base it will stores address and that address points to s1, s2 and s3. we cannot directly change it.
 
 Why we cannot start indexing from 1?
-->
+->because it directly maps to memory adddress, starting from 1 will require complex calculations and are not easily accessible.
 
 array has contiguous memory allocation it will make accessibility fasst and easy.
 
-Traversal of array
+Traversal of array: move to each and every element from start to end.
