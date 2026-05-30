@@ -18,3 +18,7 @@ Why we cannot start indexing from 1?
 array has contiguous memory allocation it will make accessibility fasst and easy.
 
 Traversal of array: move to each and every element from start to end.
+
+Array.toString(arr) - in-built method to convert array to toString
+Array.sort - sort array in ascending order.
+-> this both maethos can be import by import.java.util.Arrays;
