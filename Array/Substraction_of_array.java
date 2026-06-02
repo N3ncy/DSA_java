@@ -31,8 +31,8 @@ public class Substraction_of_array {
 
     
     public static void main(String[] args) {
-        int[] arr1 = {1 , 2, 3};
-        int[] arr2 = {1, 0, 7};
+        int[] arr1 = {1 , 0, 0};
+        int[] arr2 = {9,9};
         int m = arr1.length;
         int n = arr2.length;
         int[] result = arraySubtraction(arr1, arr2, m, n);

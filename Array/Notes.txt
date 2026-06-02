@@ -22,3 +22,20 @@ Traversal of array: move to each and every element from start to end.
 Array.toString(arr) - in-built method to convert array to toString
 Array.sort - sort array in ascending order.
 -> this both maethos can be import by import.java.util.Arrays;
+
+Time complexity:
+amount of time an algorithm takes to complete as a function of input size.
+Depends on number of steps/staement, input size
+never calculated in seconds.
+
+Space complexity:
+
+
+Asymptotic Notation: Symbols used for representation of time and space complexity.
+{1}. Big O Notation O(n) - Worst case
+{2}. Omega notation - best case
+{3}. Theta notation - average case
+
+O(n) - time increases linearly as input increases.
+O(1) - input increases but time remains constant.
+
