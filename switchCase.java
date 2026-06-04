@@ -2,8 +2,8 @@ import java.util.Scanner;
 public class switchCase{
     public static void week(){
         Scanner sc = new Scanner(System.in);
-        int a = 5;
-        int b = 6;
+        int a = 10;
+        int b = 3;
         char choice = sc.next().charAt(0);
         switch(choice){
             case '+':
